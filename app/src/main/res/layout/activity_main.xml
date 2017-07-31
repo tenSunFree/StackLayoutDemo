@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#BEBEBE"
+    android:id="@+id/srl_refresh"
+    android:paddingTop="22dp"
+    android:paddingBottom="22dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <com.fashare.stack_layout.StackLayout
+        android:id="@+id/stack_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+</android.support.v4.widget.SwipeRefreshLayout>
